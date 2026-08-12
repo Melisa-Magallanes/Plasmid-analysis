@@ -36,5 +36,7 @@ To run this pipeline, the following tools must be installed in your environment:
 *Note: Update this section with the exact command needed to run your script.*
 
 ```bash
-# Example command to run the pipeline
-bash calculate_coverage.sh -q query_plasmid.fasta -d subject_database -c island_coordinates.bed
+bash plasmid_coverage_postblast.sh \
+   -b resultados_uymma_blast.tsv \
+   -i isla_uymma02A.tsv \
+   -o resultados_mosaico_uymma
