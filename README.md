@@ -14,7 +14,7 @@ The script processes BLASTn alignments and intersects them with predefined genom
 
 ## Calculated Metrics
 
-For each subject genome analyzed, the pipeline calculates and outputs the following metrics (which correspond to **Table S3** of the manuscript):
+For each subject genome analyzed, the pipeline calculates and outputs the following metrics:
 
 * **`nt_total`**: Total nucleotides aligned to the query plasmid.
 * **`nt_in_island`**: Nucleotides aligned strictly within the coordinates of the symbiotic island.
@@ -32,8 +32,6 @@ To run this pipeline, the following tools must be installed in your environment:
 * [Python 3.x](https://www.python.org/) / Bash (depending on execution)
 
 ## Usage
-
-*Note: Update this section with the exact command needed to run your script.*
 
 ```bash
 bash plasmid_coverage_postblast.sh \
