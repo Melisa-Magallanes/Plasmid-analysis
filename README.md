@@ -40,3 +40,11 @@ bash plasmid_coverage_postblast.sh \
    -b resultados_uymma_blast.tsv \
    -i isla_uymma02A.tsv \
    -o resultados_mosaico_uymma
+
+## Arguments:
+
+    -b: BLASTn output file in tabular format (outfmt 6/7) containing the alignments of the query plasmid against the subject database. The query length (qlen) must be included in column 11.
+
+    -i: Symbiotic island coordinates file (1-based TSV) defining the genomic boundaries of the island within the query plasmid.
+
+    -o: Name of the output directory where the final coverage matrices and intermediate BED files will be saved.
