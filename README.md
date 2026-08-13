@@ -29,7 +29,7 @@ For each subject genome analyzed, the pipeline calculates and outputs the follow
 To run this pipeline, the following tools must be installed in your environment:
 * [BLAST+ suite](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 * [Bedtools](https://bedtools.readthedocs.io/)
-* [Python 3.x](https://www.python.org/) / Bash (depending on execution)
+* [Python 3.x](https://www.python.org/) 
 
 ## Usage
 
