@@ -4,7 +4,7 @@ This repository contains the custom computational pipeline and scripts used to a
 
 This work is part of the manuscript:
 **"Insights into the evolution of symbiosis in the *Cupriavidus* genus: a highly conserved symbiotic island and a patchy phylogenetic distribution"** 
-*(Magallanes Alba et al., 2026 - Environmental Microbiology, Under Review).*
+*(Magallanes Alba et al., 2026 - Environmental Microbiology).*
 
 ## Overview
 
